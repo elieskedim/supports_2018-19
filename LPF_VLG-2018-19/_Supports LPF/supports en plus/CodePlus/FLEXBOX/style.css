@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.1em 1.3em;
+    background-color: #f5dddd;
+}
+
+h1 {
+    background-color: #3a4454;
+    color: whitesmoke;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+h2 {
+    background-color: #6b737f;
+    color: white;
+    padding: 0.5em;
+    flex-wrap: wrap;
+}
+
+h3 {
+    background-color: #c2b2b4;
+    color: #610f7f;
+    padding: 0.25em;
+    flex-wrap: wrap;
+}
+
+ul{
+    /* list-style-image: url(32.png); */
+}
+
+.nb1 {
+    min-width: 5em;
+    min-height: 5em;
+    background-color: #92c9b1;
+    text-align: center;
+    line-height: 5em;
+    border-radius: 50%;
+}
+
+.nb2 {
+    min-width: 5em;
+    min-height: 5em;
+    background-color: #4f759b;
+    text-align: center;
+    line-height: 5em;
+    border-radius: 50%;
+}
+
+.nb3 {
+    min-width: 5em;
+    min-height: 5em;
+    background-color: #5d5179;
+    text-align: center;
+    line-height: 5em;
+    border-radius: 50%;
+}
+
+.nb4 {
+    min-width: 5em;
+    min-height: 5em;
+    background-color: #571f4e;
+    text-align: center;
+    line-height: 5em;
+    border-radius: 50%;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12 {
+    display: flex;
+    border: 1px solid #c2b2b4;
+    line-height: 1.4em;
+} 
+
+#home{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#a{
+    margin-bottom: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3a4454; 
+    text-align: center;
+    line-height: 5em;
+    border-radius: 50%;
+    min-width: 5em;
+    min-height: 5em;
+    
+}

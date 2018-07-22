@@ -1,0 +1,52 @@
+
+#contenu{
+    width: 80%;
+    margin: 0 auto;
+
+}
+header{
+    text-align: center;
+}
+nav{
+    font-style: italic;
+}
+ul{
+    list-style: none;
+}
+h1{    
+    border-top: 1px solid black;
+    border-bottom: 1px solid;
+}
+h4{
+    border-bottom: solid 1px;
+    font-style: italic;
+}
+.image-header{
+    float: left;
+    width: 300px;
+}
+.clear{
+    clear: both;
+}
+
+
+.droite{
+    float: right;
+    width: 50%;
+
+}
+.gauche{
+    float: left;
+    width: 50%;
+}
+h2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid;
+}
+h5{
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    image: center;
+}

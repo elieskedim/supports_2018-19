@@ -1,0 +1,63 @@
+body{
+    font-family: fantasy;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+hr{
+    width: 400px;
+}
+ul{
+    display: inline;
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline;
+    font-style: italic;
+}
+h1{
+    width: 200px;
+    margin: auto;
+    border-top: 1px solid #000;
+}
+.plat{
+    float: left;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.liste{
+    float: right;
+}
+section{
+    height: 600px;
+}
+.padding{
+    display: table-cell;
+    vertical-align: middle;
+}
+.gauche{
+    width: 600px;
+    float: left;
+}
+.droite{
+    width: 600px;
+    float: right;
+}
+.footer{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}

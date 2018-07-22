@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Dosis',
+    sans-serif;
+}
+
+/* start of header */
+.p1{
+    color: rgb(238, 180, 56);
+}
+h1, .p1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hr1{
+    margin: 0 auto;
+    width: 300px;
+    color: rgb(223, 222, 219);
+}
+section{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    margin-left: 41%;
+}
+nav a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+/*  ending of header*/
+
+
+/* start of main */
+
+/* start plate */
+.plate{
+    height: 500px;
+    width: 1100px;
+}
+
+.plate1{
+    float: left;
+
+}
+img{
+    float: left;
+    position: absolute;
+    z-index: -1;
+}
+.plate2{
+    z-index: 2;
+    height: auto;
+    width: 500px;
+    text-align: center;
+    margin-left: 110%;
+    margin-top: 42%;
+}
+.s_line{
+    border: 0.5px solid;
+    width: 99%;
+    background: rgb(201, 198, 198);
+    margin-left: -197px;
+}
+/* end of plate */
+
+/* end of main */
+
+.img {
+    height: 400px;
+    width: 548px;
+}
+
+#salle,
+#service,
+#dressage,
+#gout {
+     height: 402px;
+     width: 1100px;
+}
+.salle, .salle1{
+    float: left;
+    height: 400px;
+    width: 546px;
+}
+
+.s_div {
+    margin-top: 20%;
+    padding: 35px;
+}
+.hr3{
+    width: 98%;
+    color: rgb(223, 222, 219);
+}
+
+/* start of footer */
+.img2{
+    height: 150px;
+    width: 150px;
+    margin-left: -81px;
+    margin-bottom: 50px;
+    position: absolute;
+    z-index: -1;
+}
+.footer{
+    text-align: center;
+    margin: 10px 10px;
+}
+.footer1{
+    margin-top: 5%;
+    margin-bottom: 11%;
+}
+.last-hr{
+    width: 30%;
+    margin: 0 auto;
+}
+
+/* end of footer */
+
+
+
+
+/* 
+.bug{
+    border: 0.1em solid;
+} */

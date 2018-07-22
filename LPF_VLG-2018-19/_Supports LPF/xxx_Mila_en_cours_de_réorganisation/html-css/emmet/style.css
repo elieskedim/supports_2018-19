@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(img/bkg.jpg);
+    background-repeat: repeat;
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #D2E7E2;
+    padding: 1vw;
+}
+
+code{
+    font-size: 1.5vw;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+div{
+    background-color: #fff;
+    color: #000;
+    padding: 1vw;
+}
+
+img{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+/* tests */
+body {
+    display: block;
+    font-size: 12px;
+    background-color: #fff;
+    /* lg(top, #494949 0%, #005a8e 30%, #000) */
+    lg(top, #494949 0%, #005a8e 30%, #000000);
+    /* pof+t0+r0+c#f00+db+fz12px    */
+    pof+t0+r0+c#f00+db+fz12px 
+    lg(left, #fc0 30%, red);
+    color: rgba(82, 253, 103, 0.95);
+}

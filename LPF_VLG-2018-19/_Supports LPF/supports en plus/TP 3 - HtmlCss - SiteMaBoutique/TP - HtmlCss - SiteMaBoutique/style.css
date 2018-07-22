@@ -1,0 +1,243 @@
+body{
+	background: url(fond.png);
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 2px 2px 2px 3px #c0c0c0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*début HEADER*/
+header{
+	height: 90px;
+}
+
+.logo, .ma_boutique, .aide, .compte_panier{
+	float: left;
+}
+
+.logo{
+	width: 52px;
+	padding-top: 18px;
+	padding-left: 18px;
+}
+
+.ma_boutique{
+	width: 390px;
+}
+
+h1{
+	font-size: 40px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.ma_boutique p{
+	font-size: 13px;
+	color: #FF358B;
+	margin: 0px;
+	font-style: italic;
+}
+/*HEADER partie appel tél*/
+.aide{
+	width: 250px;
+}
+
+.aide_top{
+	font-size: 25px;
+	color: #01B0F0;
+	margin: 10px 0 0 0;
+}
+
+.aide_phone{
+	font-size: 18px;
+	color: #01B0F0;
+	margin: 10px 0 0 0;
+	font-weight: bold;
+	position: absolute;
+	top: 39px;
+    left: 978px;
+}
+
+.aide_bas{
+	font-size: 13px;
+	color: darkslategray;
+	margin: 0px;
+	font-style: italic;
+}
+
+/*HEADER rubrique mon compte et panier*/
+.compte{
+	background: #01B0F0;
+    color: #fff;
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-right: 0;
+}
+
+.panier{
+    position: absolute;
+	top: 32px;
+    left: 1190px;
+}
+
+.compte_panier{
+	width: 250px;
+}
+
+.nb_articles{
+	background: #01B0F0;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    margin: 0;
+    padding: 20px;
+}
+/*fin HEADER*/
+
+/*début NAV*/
+nav{
+	height: 30px;
+	text-align: center;
+	background: #01B0F0;
+	margin-bottom: 0px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+	height: 30px;
+	width: 14%;
+	line-height: 30px;
+	float: left;
+}
+
+nav a:first-child {
+	background-color: #FF358B;
+}
+/*fin NAV*/
+
+/*début SECTION 1 = image*/
+.bandeau img{
+	max-width: 100%;
+}
+
+/*fin SECTION 1*/
+
+/*début SECTION 2*/
+.who{
+	width: 500px;
+	border-left: 2px solid #A4B5B2;
+	border-right: 2px solid #A4B5B2;
+}
+
+.paiement, .services{
+	width: 199px;
+}
+
+.paiement, .who, .services{
+	float: left;
+	padding: 1%;
+	font-size: 12px;
+}
+
+.camion, .camion_add, .echange, .echange_add{
+	float: left;
+	vertical-align: middle;
+}
+
+.camion_add, .echange_add{
+	margin-left: 10px;
+}
+
+h2{
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #01B0F0;
+}
+/*fin SECTION 2*/
+
+
+/*début SECTION 3*/
+.plan, .coeur, .objectif{
+	float: left;
+	width: 280px;
+    margin: 19px;
+	box-shadow: 5px 5px 18px 5px #c0c0c0;
+	border-radius: 8px;
+}
+
+.titre{
+	background: #c0c0c0;
+}
+
+.bon_plan, .miniature, .blabla{
+	float: left;
+	width: 100%;
+}
+
+.boite_haut{
+	font-size: 20px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: 1px solid;
+	background-color: #c0c0c0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.duos{
+	padding: 5px;
+}
+
+.miniature{
+	width: 25%;
+	float: left;
+}
+
+.miniature img{
+	max-width: 100%;
+}
+
+.blabla{
+	width: 70%;
+	float: left;
+	font-size: 12px;
+}
+
+.voir{
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 15px;
+	color: #01B0F0;
+	text-align: right;
+}
+
+/*fin SECTION 3*/
+
+/*début FOOTER*/
+footer{
+	background: #01B0F0;
+	height: 45px;
+	color: #fff;
+	font-size: 14px;
+    padding-top: 2px;
+}
+
+ul li{
+	display: inline;
+}
+/*fin FOOTER*/
+
+.clear{
+	clear: both;
+}
+
+

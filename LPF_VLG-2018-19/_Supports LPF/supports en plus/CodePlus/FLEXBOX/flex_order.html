@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .c1 .nb2{
+            order: 2;
+        }
+        .c2 .ordre1{
+            order: 2;
+        }
+        .c2 .ordre2{
+            order: 5;
+        }
+        .c2 .ordre3{
+            order: 4;
+        }
+        .c2 .ordre4{
+            order: 3;
+        }
+        .c2 .ordre5{
+            order: 1;
+        }
+        .c2 .ordre6{
+            order: 8;
+        }
+        .c2 .ordre9{
+            order: -1;
+        }
+
+
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exercices FLEXBOX {display: flex;...</h1>
+        <h2>.class{ order:  </h2>
+
+        <h3>2 } => l'élément ciblé (ici la classe nb2) va être repositionné 2 places plus loin</h3>
+        <div class="c1">
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+        </div>
+        <!-- end <div class="c1"> -->
+
+        <h3>5 } => tous les éléments sont par défaut en position 0 (zéro)</h3>
+        <div class="c2">
+            <div class="nb1 ordre1">1</div>
+            <div class="nb2 ordre2">2</div>
+            <div class="nb3 ordre3">3</div>
+            <div class="nb4 ordre4">4</div>
+            <div class="nb2 ordre5">5</div>
+            <div class="nb3 ordre6">6</div>
+            <div class="nb4">7</div>
+            <div class="nb2">8</div>
+            <div class="nb3 ordre9">9</div>
+            <div class="nb4">10</div>
+        </div>
+        <!-- end <div class="c2"> -->
+
+        <h2>}</h2>
+        <div id="home">
+            <a href="index.html" id="a">Accueil</a>
+        </div>
+
+    </div>
+    <!-- end <div class="container"> -->
+
+</body>
+
+</html>

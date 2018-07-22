@@ -1,0 +1,151 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+#container{
+    margin: 10px;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h5{
+    font-size: 0.7em;
+    margin-top: 5px;
+    color: brown;
+    text-transform: uppercase;
+}
+header h1, h4{
+    width: 150px;
+    margin: auto;
+    font-size: 1.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    margin-left: 10px;
+}
+header nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+/**************************** FIN HEADER *****************************/
+/******************* Début section main ******************************/
+main{
+    margin-bottom: 20px;
+    background: url(../img/plate.jpg) no-repeat;
+}
+#exPlat{
+    text-align: right;
+    padding: 20px;
+    padding-top: 550px;
+}
+#exPlat h3{
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+#exPlat ul li{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/********************** Fin section main *************************/
+/***************** Debut Section ************************/
+section{
+    margin-top: 30px;
+}
+section h2{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+section .note{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: white;
+    text-transform: uppercase;
+    width: 120px;
+    padding: 2px 5px 2px 5px;
+}
+/************************************** Fin Sections *****************/
+/************************************* DEBUT FOOTER *****************/
+footer{
+    text-align: center;
+    text-transform: uppercase;
+}
+#map{
+    width: 153px;
+    height: 123px;
+    margin: auto;
+    background: url(../img/plan.png);
+}
+#map p{
+    padding-top: 50px;
+    font-weight: bold;
+}
+footer p {
+    line-height: 20px;
+}
+/*************************** FIN PARTIE PORTABLE ***********************/
+/************************* DEBUT MEDIA ********************************/
+@media screen and (min-width: 800px){
+    #container{
+        width: 800px;
+        margin: auto;
+    }
+    main #exPlat{
+        padding-top: 253px;
+        padding-bottom: 174px;
+        width: 450px;
+        float: right;
+    }
+    /***************************** FIN SECTION MAIN *********************/
+    section{
+        display: flex;
+    }
+    .gauche{
+        flex-direction: row-reverse;
+    }
+    section .blockText{
+        padding: 15px;
+        padding-top: 100px;
+    }
+    /************************* FIN SECTION *****************/
+    footer{
+        margin-top: 30px;
+    }
+    .clear{
+        clear: both;
+    }
+    }
+
+    @media screen and (min-width: 960px) {
+        #container{
+            width: 960px;
+            margin: auto;
+        }
+
+        main #exPlat{
+            width: 600px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        #container{
+            width: 1020px;
+            margin: auto;
+        }
+        section{
+            margin-top: -7px;
+        }
+    }

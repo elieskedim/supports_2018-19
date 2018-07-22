@@ -1,0 +1,61 @@
+main{
+
+   width: 80%;
+   margin: 0 auto;
+
+}
+header{
+   text-align: center;
+}
+h1{
+
+   margin: auto;
+   border-bottom: 1px solid #000;
+   border-top: 1px solid #000;
+}
+.image-header{
+   float: left;
+}
+.plat{
+   border-bottom: 1px solid #000;
+   font-style: italic;
+}
+.clear{
+   clear: both;
+}
+
+section{
+   height:530px;
+}
+.marge{
+   padding: 75px;
+
+}.left{
+   float: left;
+   width:50%;
+
+}
+.right{
+   float: right;
+   width: 50%;
+}
+h3{
+   border-bottom: 1px solid #000;
+}
+.adresse{
+   margin-bottom: 0px;
+}
+.num{
+   margin-top: 0px;
+}
+footer{
+   text-align: center;
+   margin-top: 50px;
+
+}
+
+
+
+
+
+

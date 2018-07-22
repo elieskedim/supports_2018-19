@@ -1,0 +1,105 @@
+{
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"vsicons.projectDetection.autoReload": true,
+	// Contrôle la taille de police en pixels.
+	"editor.fontSize": 18,
+	// emmet completion with tabs
+	"emmet.triggerExpansionOnTab": true,
+	"workbench.iconTheme": "material-icon-theme",
+	// Le nombre d'espaces correspondant à une tabulation. Ce paramètre est remplacé en fonction du contenu du fichier quand 'editor.detectIndentation' est activé.
+	"editor.tabSize": 4,
+	// Espaces insérés quand vous appuyez sur la touche Tab. Ce paramètre est remplacé en fonction du contenu du fichier quand 'editor.detectIndentation' est activé.
+	"editor.insertSpaces": true,
+	// Quand vous ouvrez un fichier, 'editor.tabSize' et 'editor.insertSpaces' sont détectés en fonction du contenu du fichier.
+	"editor.detectIndentation": true,
+	// Met en forme un fichier au moment de l'enregistrement. Un formateur doit être disponible, le fichier ne doit pas être enregistré automatiquement, et l'éditeur ne doit pas être en cours d'arrêt.
+	"editor.formatOnSave": true,
+	// Configurez les paramètres d'éditeur à remplacer pour le langage [yaml].
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.autoIndent": false
+	},
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"workbench.colorTheme": "Palenight Italic",
+	"team.showWelcomeMessage": false,
+	// Contrôle le retour automatique à la ligne. Valeurs possibles :
+	//  - 'off' (désactive le retour automatique à la ligne) ;
+	//  - 'on' (retour automatique à la ligne dans la fenêtre d'affichage) ;
+	//  - 'wordWrapColumn' (retour automatique à la ligne en fonction de 'editor.wordWrapColumn') ou ;
+	//  - 'bounded' (retour automatique à la ligne au minimum en fonction de la fenêtre d'affichage et de 'editor.wordWrapColumn').
+	"editor.wordWrap": "on",
+	// Pointe vers l'exécutable PHP.
+	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	// The path to a PHP 7+ executable.
+	"php.executablePath": "C:/xampp/php/php.exe",
+	// Optional. The path to the phpcs executable.
+	"phpcs.executablePath": "C:/xampp/vendor/squizlabs/php_codesniffer/bin/phpcs",
+	"editor.renderIndentGuides": false,
+	// Remplace les couleurs du thème de couleur sélectionné.
+	"workbench.colorCustomizations": {
+		"editorIndentGuide.background": "#ee9d0d"
+	},
+	// Active indentation guides rendering color for dark themes.
+	"guides.active.color.dark": "rgba(82, 253, 103, 0.95)",
+	// Active indentation guides rendering color for light themes.
+	"guides.active.color.light": "rgba(200, 100, 100, 0.75)",
+	// Enable active indentation guides in addition to normal indentation guides.
+	"guides.active.enabled": true,
+	// Expand active indentation guides on the bracket's line.
+	"guides.active.expandBrackets": true,
+	// Shift active indentations by a level. This will also render an extra indentation guide.
+	"guides.active.extraIndent": false,
+	// Enable active indentation region indicator in the gutter area in addition to normal indentation guides.
+	"guides.active.gutter": true,
+	// Hide active indentation guides in selections.
+	"guides.active.hideOnSelection": false,
+	// Active indentation guides rendering style.
+	"guides.active.style": "solid",
+	// Active indentation guides rendering width.
+	"guides.active.width": 1,
+	// Enable the extension.
+	"guides.enabled": true,
+	// Indentation background colors.
+	"guides.indent.backgrounds": [
+		//"rgba(217, 184, 196, 0.1)",
+		//"rgba(234, 234, 234, 0.1)",
+		//"rgba(115, 98, 138, 0.1)"
+	],
+	// Hide indentation background in selections.
+	"guides.indent.hideBackgroundOnSelection": true,
+	// Show start-of-line indentation guides.
+	"guides.indent.showFirstIndentGuides": true,
+	// Maximum rendering boundary based on current cursor position. Set to -1 for no limit. Use floating point between 0-1 to determine from document size instead.
+	"guides.limit.maximum": 500,
+	// Normal indentation guides rendering color for dark themes.
+	"guides.normal.color.dark": "rgba(238, 157, 13, 0.85)",
+	// Normal indentation guides rendering color for light themes.
+	"guides.normal.color.light": "rgba(220, 220, 220, 0.75)",
+	// Enable normal indentation guides.
+	"guides.normal.enabled": true,
+	// Hide normal indentation guides in selections.
+	"guides.normal.hideOnSelection": true,
+	// Normal indentation guides rendering style.
+	"guides.normal.style": "solid",
+	// Normal indentation guides rendering width.
+	"guides.normal.width": 2,
+	// Override default Visual Studio Code behaviours (such as indentation guides or rulers).
+	"guides.overrideDefault": false,
+	// Send anonymous usage statistics data to the developer.
+	"guides.sendUsagesAndStats": true,
+	// Stack indentation guides rendering color for dark themes.
+	"guides.stack.color.dark": "rgba(73, 229, 238, 0.4)",
+	// Stack indentation guides rendering color for light themes.
+	"guides.stack.color.light": "rgba(180, 180, 180, 0.75)",
+	// Enable stack indentation guides in addition to normal indentation guides.
+	"guides.stack.enabled": true,
+	// Hide stack indentation guides in selections.
+	"guides.stack.hideOnSelection": true,
+	// Stack indentation guides rendering style.
+	"guides.stack.style": "solid",
+	// Stack indentation guides rendering width.
+	"guides.stack.width": 1,
+}

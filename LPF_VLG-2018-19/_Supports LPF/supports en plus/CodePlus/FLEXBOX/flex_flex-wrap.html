@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* .c1 {
+            justify-content: flex-start;
+        }
+
+        .c2 {
+            justify-content: flex-end;
+        }
+
+        .c3 {
+            justify-content: center;
+        }
+
+        .c4 {
+            justify-content: space-between;
+        }
+
+        .c5 {
+            justify-content: space-around;
+        } */
+        .c1{
+            flex-wrap: nowrap;
+        }
+        .c2{
+            flex-wrap: wrap;
+        }
+        .c3{
+            flex-wrap: wrap-reverse;
+        }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exercices FLEXBOX { display: flex; ... }</h1>
+        <h2>{ flex-wrap: </h2>
+
+        <h3>nowrap } => pas de retour à la ligne même si les éléments dépassent</h3>
+        <div class="c1">
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+        </div>
+        <!-- end <div class="c1"> -->
+
+        <h3>wrap } => génère un retour à la ligne si les éléments dépassent</h3>
+        <div class="c2">
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+        </div>
+        <!-- end <div class="c2"> -->
+
+        <h3>wrap-reverse } => génère un retour à la ligne si les éléments dépassent dans l'ordre inversé</h3>
+        <div class="c3">
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+            <div class="nb1">1</div>
+            <div class="nb2">2</div>
+            <div class="nb3">3</div>
+            <div class="nb4">4</div>
+        </div>
+        <!-- end <div class="c3"> -->
+
+        <h2>}</h2>
+        <div id="home">
+            <a href="index.html" id="a">Accueil</a>
+        </div>
+
+    </div>
+    <!-- end <div class="container"> -->
+
+</body>
+
+</html>

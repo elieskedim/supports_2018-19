@@ -1,0 +1,65 @@
+body{
+     width: 60%;
+     margin: 0 auto;
+}
+.wrapper {
+     display: grid; /* @FORMATEUR => ici, par défaut cette propriété CSS ne comporte qu'une colonne et l'affichage sera en 1 colonne avec tous les éléments empilés
+     => montrer aux apprenants en chargeant le .html dans le navigateur
+     */
+     grid-template-columns: repeat(12, 1fr);/* repeat => répète l'instruction qui suit, ici "12" pour le nb de colonnes - 12 => nb de colonnes - fr => fraction de l'espace disponible AFFICHE alloué à chaque colonne de manière automatique par mon navigateur EN FONCTION DE L'ESPACE DISPONIBLE A L'ECRAN
+     - je peux aussi l'écrire :
+     grid-template-columns: 1fr 1fr 1fr 1fr ... 1fr - autant de fois que de colonnes à ajuster automatiquement à l'écran de l'utilisateur
+    - si je décide que j'ai 12 colonnes et que seules les 1 et 12 occupent un petit espace mais qu'une partie centrale prend la place qui reste, alors :
+        + grid-template-columns: 1fr 10fr 1fr;
+     */
+     grid-template-rows: repeat(6, 50vh);
+     /* pareil, si je décide que mes rangs ont la même taille j'écris :
+        - grid-template-rows: repeat(3, 60px);
+     */
+     /* encore plus raccourci avec la propriété CSS grid-template seule :
+        - les rangs / rows en 1er
+        - puis les colonnes / lines
+        - comme ceci :
+            + grid-template: repeat(3, 60px) / repeat(12, 1fr);
+        - un moyen de se souvenir de l'ordre rang / colonne est de penser à écrire à la main un L : je démarre de haut en bas (rows) puis de gauche à droite (columns)
+     */
+     grid-gap: 3px; /* espacement entre les éléments de la grille - EMMET grid-gap => gg + tab
+     c'est comme si j'appliquais une bordure ! mais ici cela touche TOUS les éléments de ma grille
+     */
+ }
+ .header {
+     grid-column: span 12;
+     background-color: #568ea3;
+ }
+ 
+ .menu {
+     grid-column: span 12;
+     background-color: #68c3d4;
+ }
+ 
+ .content1 {
+     grid-column: span 6;
+     background-color: #826251;
+ }
+ .content2 {
+     grid-column: span 6;
+     background-color: #68c3d4;
+ }
+
+ .footer {
+     grid-column: span 12;
+     background-color: #568ea3;
+ }
+
+ #salle_img{
+      background-image: url(../img/resto_01.jpg);
+ }
+ #service_img{
+      background-image: url(../img/resto_02.jpg);
+ }
+ #dressage_img{
+      background-image: url(../img/resto_03.jpg);
+ }
+ #gout_img{
+      background-image: url(../img/resto_04.jpg);
+ }

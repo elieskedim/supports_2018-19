@@ -1,0 +1,202 @@
+body{
+    width: 55%;
+    margin: 0 auto;
+    background-color: rgb(236, 237, 239);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#plat{
+    margin-top: 40px;
+}
+
+#h41{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+
+}
+
+nav{
+    margin-left: 420px;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+
+#h42{
+    text-align: right;
+    margin-top: -203px;
+    margin-right: 280px;
+}
+
+#hr3{
+    margin-top: -3px;
+    width: 500px;
+    height: 0px;
+}
+
+#exemple{
+    margin-top: -198px;
+    margin-left: 666px;
+}
+
+#merlu{
+    margin-left: 656px;
+}
+
+#test{
+    width: 300px;
+    height: 299px;
+    margin-left: 150px;
+}
+
+#a{
+    width: 34%;
+    height: 200px;
+    margin-top: 175px;
+    margin-left: 60px;
+    float: left;
+}
+
+#b{
+    width: 14%;
+    height: 200px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 200px;
+}
+
+#salle1{
+    width: 440px;
+    height: 440px;
+    margin-left: -204px;
+}
+#hrsalle{
+    width: 400px;
+}
+#c{
+    width: 34%;
+    height: 200px;
+    float: left;
+}
+
+#service{
+    width: 440px;
+    height: 440px;
+    margin-left: -360px;
+    margin-top: 240px;
+}
+
+#d{
+    width: 38%;
+    height: 200px;
+    margin-top: 165px;
+    margin-right: 130px;
+    float: right;
+}
+#hrservice{
+    width: 390px;
+    margin-right: 20px;
+}
+
+#e{
+    width: 37%;
+    height: 200px;
+    margin-top: 575px;
+    margin-left: 75px;
+    float: left;
+}
+
+#hrdressage{
+    width: 385px;
+    margin-left: 0px;
+}
+
+#f{
+    width: 14%;
+    height: 200px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 200px;
+}
+
+#dressage{
+    width: 440px;
+    height: 440px;
+    margin-left: -204px;
+    margin-top: 15px;
+}
+
+#g{
+    width: 34%;
+    height: 200px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#gout{
+    width: 440px;
+    height: 440px;
+    margin-left: -406px;
+    margin-top: 255px;
+}
+
+#h{
+    width: 35%;
+    height: 200px;
+    margin-top: 140px;
+    margin-right: 165px;
+    float: right;
+}
+
+#hrgout{
+    width: 500px;
+}
+#i{
+    width: 34%;
+    height: 200px;
+    float: none;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.footer{
+    padding-top: 1900px;
+    margin-left: 400px;
+}
+
+#hrf{
+    width: 500px;
+    margin-left: -175px;
+}
+
+#hrf2{
+    width: 500px;
+    margin-left: -175px;
+}
+
+#h2s{
+    margin-left: 40px;
+}
+
+#tel{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+#adress{
+    margin-left: -45px;
+}

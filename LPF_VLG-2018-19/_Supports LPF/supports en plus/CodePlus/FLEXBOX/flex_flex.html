@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <style>
+          .c1 .nb1 {
+               flex: 1;
+          }
+
+          .c1 .nb3 {
+               flex: 2;
+          }
+
+          .c2 .nb2 {
+               flex: 2;
+          }
+
+          .c2 .nb4 {
+               flex: 4;
+          }
+     </style>
+     <title></title>
+</head>
+
+<body>
+     <div class="container">
+          <h1>Exercices FLEXBOX { display: flex; ... }</h1>
+          <h2>{ flex: </h2>
+
+          <h3>1; } pour .nb1 et 2; } pour .nb3 => le 3ème élément peut grossir 2 fois plus que le 1er élément -> class = c1 style{display:flex...</h3>
+          <div class="c1">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c1"> -->
+
+          <h3>2; } pour .nb2 et 4; } pour .nb4 => le 4ème élément peut grossir 2 fois plus que le 2nd élément -> class = c2 style{display:flex...
+          </h3>
+          <div class="c2">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c2"> -->
+
+          <h2>}</h2>
+          <div id="home">
+               <a href="index.html" id="a">Accueil</a>
+          </div>
+
+     </div>
+     <!-- end <div class="container"> -->
+
+</body>
+
+</html>

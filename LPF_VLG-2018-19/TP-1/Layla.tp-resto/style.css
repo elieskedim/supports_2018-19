@@ -1,0 +1,76 @@
+body{
+     font-family: 'Cormorant Garamond', serif;
+}
+#container{
+  text-align: center;
+}
+
+a{
+    text-decoration: inherit;
+}
+
+/* .a, .b, .c, .d, .e{
+image-rendering: inherit;
+
+} */
+
+h3, h4{
+    text-transform: uppercase;
+}
+
+.ep h4{
+   text-transform: none;
+}
+
+
+.boxed{
+    border: black;
+    background-color: black;
+    color: white;
+    /* height: fit-content;
+    width: fit-content; */
+    margin-left: 37%;
+    margin-right: 52%;
+    text-align: left;
+  }
+
+  .checked {
+    color:gray;
+    position: relative;
+   }
+
+.fa-star{
+    color: white;
+}
+
+hr{
+    width: 35%;
+    height: 1px;
+    border: none;
+    background-color: black;
+    color: black;
+}
+
+img {
+    
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: black;
+    
+}
+
+header, footer{
+text-align: center;
+
+}

@@ -1,0 +1,50 @@
+main{
+    width: 80%;
+    margin: 0% auto;
+    font-family: Garamond;
+}
+header{
+
+    text-align: center;
+
+}
+
+
+h4{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.image-header{
+    float: left;
+}
+nav{
+    float: right;
+}
+.titre-header{
+    float: right;
+    border-bottom: 1px solid black;
+    
+}
+ul{
+    list-style: none;
+    text-align: right;
+}
+.clear{
+    clear: both;
+}
+section{
+    height: 520px;
+}
+.left{
+    float: left;
+    width: 50%;
+  
+    
+}
+.right{
+    float: right;
+    width: 50%;
+}
+footer{
+    text-align: center;
+}

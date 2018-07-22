@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <style>
+          /* .c1 
+        {
+            align-items: flex-start;
+            height: 20em;
+        }
+        .c2{
+            align-items: flex-end;
+            height: 20em;
+        }
+        .c3{
+            align-items: center;
+            height: 20em;
+        }
+        .c4{
+            align-items: baseline;
+            height: 20em;
+        }
+        .c5{
+            align-items: stretch;
+            height: 20em;
+        } */
+
+          .c1 {
+               flex-flow: row nowrap;
+          }
+
+          .c2 {
+               flex-flow: row wrap;
+          }
+
+          .c3 {
+               flex-flow: row wrap-reverse;
+          }
+
+          .c4 {
+               flex-flow: row-reverse nowrap;
+          }
+
+          .c5 {
+               flex-flow: row-reverse wrap;
+          }
+
+          .c6 {
+               flex-flow: row-reverse wrap-reverse;
+          }
+
+          .c7 {
+               /* flex-flow: column nowrap; */
+               flex-direction: column;
+               flex-wrap: nowrap;
+          }
+
+          .c8 {
+               flex-flow: column wrap;
+          }
+
+          .c9 {
+               flex-flow: column wrap-reverse;
+          }
+
+          .c10 {
+               flex-flow: column-reverse nowrap;
+          }
+
+          .c11 {
+               flex-flow: column-reverse wrap;
+          }
+
+          .c12 {
+               flex-flow: column-reverse wrap-reverse;
+          }
+     </style>
+     <title></title>
+</head>
+
+<body>
+     <div class="container">
+          <h1>Exercices FLEXBOX { display: flex; ... }</h1>
+          <h2>{ flex-flow: </h2>
+
+          <h3>row nowrap } => aligne les éléments en LIGNE du PREMIER AU DERNIER & sur la MÊME LIGNE -> class = c1 style{display:flex...</h3>
+          <div class="c1">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c1"> -->
+
+          <h3>row wrap } => aligne les éléments en LIGNE du PREMIER AU DERNIER & fait un RETOUR A LA LIGNE si besoin -> class
+               = c2 style{display:flex...</h3>
+          <div class="c2">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c2"> -->
+
+          <h3>row wrap-reverse } => aligne les éléments en LIGNE du DERNIER AU PREMIER en DEBUTANT en DERNIERTE LIGNE & fait
+               un RETOUR A LA LIGNE PRECEDENTE si besoin -> class = c3 style{display:flex...</h3>
+          <div class="c3">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c3"> -->
+
+          <h3>row-reverse nowrap } => aligne les éléments en LIGNE du DERNIER AU PREMIER & sur la MÊME LIGNE -> class = c4 style{display:flex...</h3>
+          <div class="c4">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c4"> -->
+
+          <h3>row-reverse wrap } => aligne les éléments en LIGNE du PREMIER AU DERNIER alignés A DROITE & fait un RETOUR A LA
+               LIGNE si besoin -> class = c5 style{display:flex...</h3>
+          <div class="c5">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c5"> -->
+
+          <h3>row-reverse wrap-reverse } => aligne les éléments en LIGNE du PREMIER AU DERNIER en DEBUTANT en DERNIERE LIGNE
+               & renvoie à la LIGNE PRECEDENTE si nécessaire -> class = c6 style{display:flex...</h3>
+          <div class="c6">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c6"> -->
+
+          <h3>column nowrap } => aligne les éléments en COLONNE du PREMIER AU DERNIER & sur la MÊME COLONNE -> class = c7 style{display:flex...</h3>
+          <div class="c7">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+          </div>
+          <!-- end <div class="c7"> -->
+
+          <h3>column wrap } => aligne les éléments en COLONNE du PREMIER AU DERNIER -> class = c8 style{display:flex...</h3>
+          <div class="c8">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+          </div>
+          <!-- end <div class="c8"> -->
+
+          <h3>column wrap-reverse } => aligne les éléments en COLONNE du PREMIER AU DERNIER & occupe TOUTE LA LARGEUR disponible
+               -> class = c9 style{display:flex...</h3>
+          <div class="c9">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c9"> -->
+
+          <h3>column-reverse nowrap } => aligne les éléments en COLONNE du DERNIER AU PREMIER & sur la MÊME LIGNE -> class =
+               c10 style{display:flex...
+          </h3>
+          <div class="c10">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c10"> -->
+
+          <h3>column-reverse wrap } => aligne les éléments en COLONNE du PREMIER AU DERNIER alignés A DROITE & fait un RETOUR
+               A LA LIGNE si besoin -> class = c11 style{display:flex...</h3>
+          <div class="c11">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+          </div>
+          <!-- end <div class="c11"> -->
+
+          <h3>column-reverse wrap-reverse } => aligne les éléments en COLONNE du PREMIER AU DERNIER & occupe TOUTE LA LARGEUR
+               disponible -> class = c12 style{display:flex...</h3>
+          <div class="c12">
+               <div class="nb1">1</div>
+               <div class="nb2">2</div>
+               <div class="nb3">3</div>
+               <div class="nb4">4</div>
+               <div class="nb1">1</div>
+          </div>
+          <!-- end <div class="c12"> -->
+
+          <h2>}</h2>
+          <div id="home">
+               <a href="index.html" id="a">Accueil</a>
+          </div>
+
+     </div>
+     <!-- end <div class="container"> -->
+
+</body>
+
+</html>

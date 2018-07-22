@@ -1,0 +1,112 @@
+/* 
+ * @formateur 
+ * les animations sont un bonus en plus pour ceux qui avancent plus vite que l'ensemble du groupe
+ */
+
+/*animations*/
+
+@keyframes masuperanimation {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(150px) rotate(30deg);
+  }
+}
+
+.c4:hover {
+  animation: masuperanimation 3s;
+  /* On utilise "ma super animation" définie plus tôt */
+  /*animation-direction: reverse;*/
+  animation-fill-mode: backwards;
+  /* après l'animation l'élément revient à sa position initiale */
+}
+
+@keyframes movemydiv {
+  from {
+    transform: translateX(0px);
+  }
+  30% {
+    transform: translateX(150px);
+  }
+  60% {
+    transform: translateX(150px) rotate(30deg);
+  }
+  80% {
+    transform: translate(100px, 80px) rotate(30deg);
+  }
+  to {
+    transform: translate(100px, 80px) rotate(60deg);
+    border-radius: 0%;
+    background-color: red;
+  }
+}
+
+.c1:hover {
+  animation: movemydiv 6s steps(3);
+  /* 3 étapes */
+  /*animation-direction: reverse;*/
+  animation-fill-mode: backwards;
+  /* après l'animation l'élément revient à sa position initiale */
+}
+/*Fin des animations*/
+
+/* 
+ * @formateur 
+ * les float et clear sont volontairement mis en commentaires pour leur montrer ce 
+ * qui change par rapport au précédent WorkShop avec les Cubitus
+ */
+.c1,
+.c2,
+.c3,
+.c4,
+.empty {
+  height: 10em;
+  width: 10em;
+  margin: 0.2em;
+  /*float: left;*/
+  display: inline-block;
+  text-align: center;
+}
+.empty {
+  border: 0.2em solid #fff;
+  color: #fff;
+}
+.c1 {
+  background-color: aquamarine;
+  border: 0.2em solid black;
+  border-radius: 50%;
+}
+
+.c2 {
+  background-color: darksalmon;
+  border: 0.2em solid black;
+  border-radius: 5% 50%;
+}
+.c3 {
+  background-color: cyan;
+  border: 0.2em solid black;
+  border-radius: 60% 15%;
+}
+.c4 {
+  background-color: green;
+  border: 0.2em solid black;
+  border-radius: 0% 50% 40% 50%;
+}
+
+section div:nth-child(18) {
+  background-color: red;
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-delay: 0.4s; /* Démarre au bout de 0,4s */
+}
+section div:nth-child(18):hover {
+  background-color: darksalmon;
+}
+
+/* .clear {
+  clear: both;
+} */
