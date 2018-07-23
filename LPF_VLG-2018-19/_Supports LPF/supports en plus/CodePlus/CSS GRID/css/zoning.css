@@ -1,0 +1,78 @@
+.wrapper {
+    display: grid; /* @FORMATEUR => ici, par défaut cette propriété CSS ne comporte qu'une colonne et l'affichage sera en 1 colonne avec tous les éléments empilés
+    => montrer aux apprenants en chargeant le .html dans le navigateur
+    */
+    grid-template-columns: repeat(12, 1fr);/* repeat => répète l'instruction qui suit, ici "12" pour le nb de colonnes - 12 => nb de colonnes - fr => fraction de l'espace disponible AFFICHE alloué à chaque colonne de manière automatique par mon navigateur EN FONCTION DE L'ESPACE DISPONIBLE A L'ECRAN
+    - je peux aussi l'écrire :
+    grid-template-columns: 1fr 1fr 1fr 1fr ... 1fr - autant de fois que de colonnes à ajuster automatiquement à l'écran de l'utilisateur
+   - si je décide que j'ai 12 colonnes et que seules les 1 et 12 occupent un petit espace mais qu'une partie centrale prend la place qui reste, alors :
+       + grid-template-columns: 1fr 10fr 1fr;
+    */
+    grid-template-rows: 40px 100px 40px;
+    /* pareil, si je décide que mes rangs ont la même taille j'écris :
+       - grid-template-rows: repeat(3, 60px);
+    */
+    /* encore plus raccourci avec la propriété CSS grid-template seule :
+       - les rangs / rows en 1er
+       - puis les colonnes / lines
+       - comme ceci :
+           + grid-template: repeat(3, 60px) / repeat(12, 1fr);
+       - un moyen de se souvenir de l'ordre rang / colonne est de penser à écrire à la main un L : je démarre de haut en bas (rows) puis de gauche à droite (columns)
+    */
+    grid-gap: 3px; /* espacement entre les éléments de la grille - EMMET grid-gap => gg + tab
+    c'est comme si j'appliquais une bordure ! mais ici cela touche TOUS les éléments de ma grille
+    */
+}
+
+.header {
+    grid-column: span 12;
+    background-color: #568ea3;
+}
+
+.menu {
+    grid-column: span 4;
+    background-color: #68c3d4;
+}
+
+.content {
+    grid-column: span 8;
+    background-color: #826251;
+}
+
+.footer {
+    grid-column: span 12;
+    background-color: #568ea3;
+}
+
+/*
+- je peux réarranger mes éléments / balises HTML pour les afficher de manière plus lisible sur un petit écran
+- pour ce faire j'utilise les media queries => @media
+- ici ma media query vise l'affichage sur écran => screen
+- et je précise pour quel type d'écran une autre mise en page s'affiche :
+    + 480 pixels et moins => and (max-width: 480px)
+    + 35 rem et moins => and (max-width: 35rem)
+    + écran mode paysage => and (orientation: landscape)
+    + écran mode portrait => and (orientation: portrait)
+    + il y a d'autres options => https://tympanus.net/codrops/css_reference/media/
+*/
+
+/* je veux que sur mobile mon menu et mon header s'affichent en haut de l'écran côt à côte :
+- je cible les éléments que je veux changer de position pour ce format d'écran :
+   + le header => passe à 6 colonnes
+   + le menu => commence sur la 1ère ligne de la grille ET passe à 6 colonnes
+   + le contenu => passe à 12 colonnes
+*/
+@media screen and (max-width: 480px) {
+    .header {
+        grid-column: span 6;
+    }
+
+    .menu {
+        grid-row: 1;
+        grid-column: span 6;
+    }
+
+    .content {
+        grid-column: span 12;
+    }
+}

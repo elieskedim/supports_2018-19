@@ -37,7 +37,7 @@ header{
      font-size: 3rem;
      /* partie grid */
      display: grid;
-     grid-template-columns: 280px auto;
+     grid-template-columns: 175px auto 175px;
 }
 header img{
      margin: 22.5px;
@@ -82,4 +82,15 @@ nav a:hover{
 }
 /**************FIN NAV********************/
 
-
+main{
+     margin-top: 7vh;
+     font-size: 2.2em;
+     line-height: 1.8em;
+     margin-left: 10px;
+     margin-right: 10px;
+     }
+     main > div{
+          line-height: 3em;
+          font-size: 0.5em;
+     }
+/************** FIN MAIN ********************/

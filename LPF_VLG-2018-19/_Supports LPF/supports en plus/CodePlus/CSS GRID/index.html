@@ -7,7 +7,7 @@
           <meta http-equiv="X-UA-Compatible" content="ie=edge">
           <title>La grille ou Grid CSS</title>
           <link rel="stylesheet" href="css/style.css">
-          <link rel="stylesheet" href="css/01_bases.css">
+          <link rel="stylesheet" href="css/index.css">
      </head>
 
      <body>
@@ -15,19 +15,75 @@
           <header>
                <img src="grid2.png" alt="la grille css">
                <h1>La grille CSS ou "CSS Grid"</h1>
+               <img src="grid2.png" alt="la grille css">
           </header>
 
           <nav>
                <!--Zone du menu, les liens pour naviguer sur le site-->
                <a href="index.html" class="activ">La Grille</a>
-               <a href="02_zoning_simple.html">Zoning</a>
+               <a href="fractions.html">Fractions</a>
+               <a href="zoning.html">Zoning</a>
           </nav>
 
           <main>
-               <p>Le système de grille CSS s'appuie sur les LIGNES verticales et horizontales de ma grille, pas sur les lignes
-                    ou les colonnes !
-               </p>
+               <p>Le système de grille CSS s'appuie sur les LIGNES verticales et horizontales qui dessinent ma grille, pas sur les rangs ni
+                    les colonnes !</p>
                <div class="wrapper">
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="c"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+                    <div class="vide"></div>
+               </div>
+
+               <hr>
+
+               <p>Le système de grille CSS permet de positionner des éléments HTML 
+                    <ul>
+                         <li>en colonnes :
+                         <em>grid-template-columns: 100px 100px 100px; </em></li>
+                         <li>et en rangs :
+                         <em>grid-template-rows: 100px 100px 100px;
+                         </em></li>
+                    </ul> 
+               </p>
+               <div class="wrapper0">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+               </div>
+
+               <hr>
+
+               <p>Les cellules de la grille CSS peuvent occuper plusieurs rangs
+                    ou colonnes : on compte les LIGNES de la grille pour ça !</p>
+               <div class="wrapper1">
                     <div>1</div>
                     <div>2</div>
                     <div>3</div>
@@ -35,6 +91,23 @@
                     <div>5</div>
                     <div>6</div>
                </div>
+
+               <hr>
+
+               <p>Un autre exemple avec une mise en page complète ^^</p>
+               <div class="wrapper2">
+                    <div id="droit">D</div>
+                    <div id="cd">0</div>
+                    <div class="c1">1</div>
+                    <div class="c2">2</div>
+                    <div class="c3">3</div>
+                    <div class="c4">4</div>
+                    <div class="c5">5</div>
+                    <div id="cg">6</div>
+                    <div id="gauche">G</div>
+               </div>
+
+               <hr>
           </main>
 
           <!-- <p>€</p>
