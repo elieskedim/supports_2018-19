@@ -5,6 +5,7 @@
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
           <title>La grille ou Grid CSS</title>
           <link rel="stylesheet" href="css/style.css">
           <link rel="stylesheet" href="css/index.css">
@@ -13,21 +14,28 @@
      <body>
           <!-- https://caniuse.com/#feat=css-grid -->
           <header>
-               <img src="grid2.png" alt="la grille css">
+               <div id="logo">
+                    <a href="#logo">
+                         <button type="button">
+                              <i class="fas fa-arrow-circle-up"></i>
+                         </button>
+                    </a>
+                    <img src="grid2.png" alt="la grille css">
+               </div>
                <h1>La grille CSS ou "CSS Grid"</h1>
                <img src="grid2.png" alt="la grille css">
           </header>
 
-          <nav>
+          <nav id="activ_nav">
                <!--Zone du menu, les liens pour naviguer sur le site-->
-               <a href="index.html" class="activ">La Grille</a>
+               <a href="index.html">La Grille</a>
                <a href="fractions.html">Fractions</a>
                <a href="zoning.html">Zoning</a>
           </nav>
 
           <main>
-               <p>Le système de grille CSS s'appuie sur les LIGNES verticales et horizontales qui dessinent ma grille, pas sur les rangs ni
-                    les colonnes !</p>
+               <p>Le système de grille CSS s'appuie sur les LIGNES verticales et horizontales qui dessinent ma grille, pas sur
+                    les rangs ni les colonnes !</p>
                <div class="wrapper">
                     <div class="vide"></div>
                     <div class="vide"></div>
@@ -58,14 +66,16 @@
 
                <hr>
 
-               <p>Le système de grille CSS permet de positionner des éléments HTML 
+               <p>Le système de grille CSS permet de positionner des éléments HTML
                     <ul>
                          <li>en colonnes :
-                         <em>grid-template-columns: 100px 100px 100px; </em></li>
+                              <em>grid-template-columns: 100px 100px 100px; </em>
+                         </li>
                          <li>et en rangs :
-                         <em>grid-template-rows: 100px 100px 100px;
-                         </em></li>
-                    </ul> 
+                              <em>grid-template-rows: 100px 100px 100px;
+                              </em>
+                         </li>
+                    </ul>
                </p>
                <div class="wrapper0">
                     <div>1</div>
@@ -81,8 +91,8 @@
 
                <hr>
 
-               <p>Les cellules de la grille CSS peuvent occuper plusieurs rangs
-                    ou colonnes : on compte les LIGNES de la grille pour ça !</p>
+               <p>Les cellules de la grille CSS peuvent occuper plusieurs rangs ou colonnes : on compte les LIGNES de la grille
+                    pour ça !</p>
                <div class="wrapper1">
                     <div>1</div>
                     <div>2</div>
@@ -115,6 +125,7 @@
 
         <div class="pixelart-to-css"></div>
         <div class="pixelart-to-css2"></div> -->
+          <script src="js/activ.js"></script>
      </body>
 
 </html>
