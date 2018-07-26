@@ -48,6 +48,19 @@ header h1{
     padding-top: 50px;
 }
 
+button {
+
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 250%;
+    color: rgba(151, 216, 178, 0.5);
+
+}
+
 /**************DEBUT NAV********************/
 nav {
     /* background :#a9bd97; */
@@ -82,8 +95,12 @@ nav a:hover{
     background: #2c3e50;
     color: white ;
 }
+nav a.activ:hover{
+     color: #96616b;
+}
 /**************FIN NAV********************/
 
+/************** MAIN ********************/
 main{
     margin-top: 7vh;
     font-size: 2.2em;
