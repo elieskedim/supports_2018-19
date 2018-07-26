@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
 *{
     box-sizing: border-box;
 }
@@ -15,11 +17,11 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 body{
     background-image: url(../sneaker_mesh_fabric.png);
@@ -27,23 +29,23 @@ body{
     scroll-behavior: smooth;
     text-align: center;
     line-height: 5rem; /* EMMET line-height => lh + tab */
-    font-family: fantasy;
+    font-family: 'Merienda', cursive;
 }
 
 /**************HEADER INDEX****************/
 header{
-     background: #407076;
-     height: 175px;
-     font-size: 3rem;
-     /* partie grid */
-     display: grid;
-     grid-template-columns: 175px auto 175px;
+    background: #407076;
+    height: 175px;
+    font-size: 3rem;
+    /* partie grid */
+    display: grid;
+    grid-template-columns: 175px auto 175px;
 }
 header img{
-     margin: 22.5px;
+    margin: 22.5px;
 }
 header h1{
-     padding-top: 50px;
+    padding-top: 50px;
 }
 
 /**************DEBUT NAV********************/
@@ -83,14 +85,14 @@ nav a:hover{
 /**************FIN NAV********************/
 
 main{
-     margin-top: 7vh;
-     font-size: 2.2em;
-     line-height: 1.8em;
-     margin-left: 10px;
-     margin-right: 10px;
-     }
-     main > div{
-          line-height: 3em;
-          font-size: 0.5em;
-     }
+    margin-top: 7vh;
+    font-size: 2.2em;
+    line-height: 1.8em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main > div{
+    line-height: 3em;
+    font-size: 0.5em;
+}
 /************** FIN MAIN ********************/
